@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="Sound Manager"
-config/features=PackedStringArray("4.1", "C#", "Forward Plus")
+run/main_scene="res://examples/example.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
